@@ -1,3 +1,4 @@
+import React from "react";
 import { Fragment } from "react";
 import logo from "../../Logos/scrum-logo.svg";
 import classes from "../Navigation/MainNavigation.module.css";
