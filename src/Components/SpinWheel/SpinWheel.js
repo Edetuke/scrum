@@ -1,9 +1,19 @@
 import React from "react";
 
 import WheelComponent from "react-wheel-of-prizes";
+import classes from "./SpinWheel.module.css";
 
 const SpinWheel = () => {
-  const segments = ["Edita", "Gedas", "Karina", "Fronte", "Gytis", "Gyte"];
+  const segments = [
+    "Edita",
+    "Gedas",
+    "Karina",
+    "Edita",
+    "Fronte",
+    "Gytis",
+    "Edita",
+    "Gyte",
+  ];
   const segColors = [
     "#EE4040",
     "#F0CF50",
@@ -21,7 +31,6 @@ const SpinWheel = () => {
     <WheelComponent
       segments={segments}
       segColors={segColors}
-      winningSegment="won 10"
       onFinished={(winner) => onFinished(winner)}
       primaryColor="black"
       contrastColor="white"
@@ -30,7 +39,7 @@ const SpinWheel = () => {
       size={290}
       upDuration={100}
       downDuration={1000}
-      fontFamily="Arial"
+      fontFamily="Ariel"
     />
   );
 };
