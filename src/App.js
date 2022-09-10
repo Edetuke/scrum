@@ -1,7 +1,8 @@
+import MainNavigation from "./Components/Navigation/MainNavigation";
 import styles from "./global.css";
 
 function App() {
-  return <h1>Hello, World</h1>;
+  return <MainNavigation />;
 }
 
 export default App;
