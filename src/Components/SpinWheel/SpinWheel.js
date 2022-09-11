@@ -28,19 +28,21 @@ const SpinWheel = () => {
     console.log(winner);
   };
   return (
-    <WheelComponent
-      segments={segments}
-      segColors={segColors}
-      onFinished={(winner) => onFinished(winner)}
-      primaryColor="black"
-      contrastColor="white"
-      buttonText="Spin"
-      isOnlyOnce={false}
-      size={290}
-      upDuration={100}
-      downDuration={1000}
-      fontFamily="Ariel"
-    />
+    <div className={classes.wheel}>
+      <WheelComponent
+        segments={segments}
+        segColors={segColors}
+        onFinished={(winner) => onFinished(winner)}
+        primaryColor="black"
+        contrastColor="white"
+        buttonText="Spin"
+        isOnlyOnce={false}
+        size={290}
+        upDuration={100}
+        downDuration={1000}
+        fontFamily="Ariel"
+      />
+    </div>
   );
 };
 

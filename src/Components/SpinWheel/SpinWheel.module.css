@@ -1,3 +1,4 @@
 .wheel {
-  transition: all ease-out 5s;
+  float: right;
+  margin-top: 8rem;
 }
