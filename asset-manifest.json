@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/scrum/static/css/main.0a5ad677.css",
+    "main.js": "/scrum/static/js/main.0841976c.js",
+    "static/media/scrum-logo.svg": "/scrum/static/media/scrum-logo.20056fb0e5adb853760ced31185c8372.svg",
+    "index.html": "/scrum/index.html",
+    "main.0a5ad677.css.map": "/scrum/static/css/main.0a5ad677.css.map",
+    "main.0841976c.js.map": "/scrum/static/js/main.0841976c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a5ad677.css",
+    "static/js/main.0841976c.js"
+  ]
+}
