@@ -38,8 +38,8 @@ const SpinWheel = () => {
         buttonText="Spin"
         isOnlyOnce={false}
         size={290}
-        upDuration={100}
-        downDuration={1000}
+        upDuration={50}
+        downDuration={100}
         fontFamily="Ariel"
       />
     </div>

@@ -1,4 +1,6 @@
 .wheel {
+  display: flex;
   float: right;
   margin-top: 8rem;
+  justify-content: center;
 }

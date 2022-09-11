@@ -5,6 +5,7 @@
   text-transform: uppercase;
   flex-direction: column;
   align-items: center;
+  margin-right: 3rem;
 }
 
 .link {
