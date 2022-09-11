@@ -11,7 +11,7 @@ const SpinWheel = () => {
     "Edita",
     "Fronte",
     "Gytis",
-    "Edita",
+    "Erika",
     "Gyte",
   ];
   const segColors = [
