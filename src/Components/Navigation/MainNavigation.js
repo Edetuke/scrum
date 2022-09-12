@@ -1,6 +1,6 @@
 import React from "react";
 import { Fragment } from "react";
-import logo from "../../Logos/scrum-logo.svg";
+import logo from "../../Logos/screasy-logo.svg";
 import classes from "../Navigation/MainNavigation.module.css";
 import MenuNav from "./Menu";
 
