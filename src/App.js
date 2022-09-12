@@ -1,12 +1,10 @@
 import React, { Fragment } from "react";
-
-import MainNavigation from "./Components/Navigation/MainNavigation";
-import SpinWheel from "./Components/SpinWheel/SpinWheel";
+import MainPage from "./Components/MainPage/MainPage";
 
 function App() {
   return (
     <Fragment>
-      <MainNavigation />
+      <MainPage />
     </Fragment>
   );
 }
