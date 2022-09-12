@@ -1,11 +1,12 @@
 .menu {
   display: flex;
   float: right;
-  margin-top: 15rem;
+  margin-top: 3rem;
   text-transform: uppercase;
-  flex-direction: column;
+  padding: 1.2rem;
+  margin-right: 1.2rem;
   align-items: center;
-  margin-right: 3rem;
+  gap: 1.8rem;
 }
 
 .link {
