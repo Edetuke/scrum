@@ -1,11 +1,12 @@
 import { Fragment } from "react";
 import MainNavigation from "../Navigation/MainNavigation";
-import Menu from "../Navigation/Menu";
+import About from "./About";
 
 const MainPage = () => {
   return (
     <Fragment>
       <MainNavigation />
+      <About />
     </Fragment>
   );
 };
