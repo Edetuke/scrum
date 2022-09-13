@@ -1,4 +1,18 @@
 .logo {
+  position: absolute;
   height: 3rem;
-  margin-top: 1rem;
+
+  top: 5%;
+  left: 5%;
+}
+
+.backround {
+  width: 100%;
+  height: 30rem;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }

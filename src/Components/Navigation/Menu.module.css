@@ -1,12 +1,15 @@
 .menu {
+  position: absolute;
   display: flex;
   float: right;
-  margin-top: 1rem;
+
   text-transform: uppercase;
   padding: 1.2rem;
   margin-right: 1.2rem;
   align-items: center;
   gap: 1.8rem;
+  top: 5%;
+  right: 5%;
 }
 
 .link {
