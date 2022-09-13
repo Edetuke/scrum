@@ -1,11 +1,14 @@
 import React, { Fragment } from "react";
 import MainPage from "./Components/MainPage/MainPage";
+import styles from "./global.css";
 
 function App() {
   return (
-    <Fragment>
-      <MainPage />
-    </Fragment>
+    <div className={styles.content}>
+      <Fragment>
+        <MainPage />
+      </Fragment>
+    </div>
   );
 }
 
