@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/scrum/static/css/main.8863c2b8.css",
-    "main.js": "/scrum/static/js/main.60f87753.js",
+    "main.css": "/scrum/static/css/main.6e07daff.css",
+    "main.js": "/scrum/static/js/main.40890e27.js",
     "static/media/about-backroud.jpg": "/scrum/static/media/about-backroud.c6c5749d874d1b486234.jpg",
     "static/media/screasy-logo.svg": "/scrum/static/media/screasy-logo.091547ee2021c73993a4aebc7d269d67.svg",
     "index.html": "/scrum/index.html",
-    "main.8863c2b8.css.map": "/scrum/static/css/main.8863c2b8.css.map",
-    "main.60f87753.js.map": "/scrum/static/js/main.60f87753.js.map"
+    "main.6e07daff.css.map": "/scrum/static/css/main.6e07daff.css.map",
+    "main.40890e27.js.map": "/scrum/static/js/main.40890e27.js.map"
   },
   "entrypoints": [
-    "static/css/main.8863c2b8.css",
-    "static/js/main.60f87753.js"
+    "static/css/main.6e07daff.css",
+    "static/js/main.40890e27.js"
   ]
 }
