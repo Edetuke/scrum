@@ -1,28 +1,13 @@
-import SpinWheel from "../SpinWheel/SpinWheel";
-import classes from "./AboutFacilitator.module.css";
+import classes from "./AboutPoker.module.css";
+import pokerimg from "../../Logos/images/pokerimg.jpg";
 
-const AboutFacilitator = () => {
-  const segments = [
-    "Edita",
-    "Gedas",
-    "Karina",
-    "Edita",
-    "Fronte",
-    "Gytis",
-    "Erika",
-    "Gyte",
-  ];
+const AboutPoker = () => {
   return (
-    <div className={classes.aboutFacilitator}>
-      <div className={classes.wheel}>
-        <SpinWheel size={150} segments={segments} />
-      </div>
-      <div className={classes.facilitatorText}>
-        <h2>Facilitator election</h2>
-        <p>
-          Saves your time on facilitator selection, booking meetings for
-          facilitation preparation and more!
-        </p>
+    <div className={classes.aboutPoker}>
+      <img className={classes.pokerimg} src={pokerimg} alt="scrum-poker" />
+      <div className={classes.pokerText}>
+        <h2>STORY POINT POKER</h2>
+        <p>Estimate story points online and together.</p>
         <ul>
           <li>
             {" "}
@@ -57,25 +42,9 @@ const AboutFacilitator = () => {
                 d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59"
               />
             </svg>
-            Select weekly facilitators
+            Each team member can fill its capacity online
           </li>
-          <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className={classes.icon}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            Schedule time for meeting preparations
-          </li>
+
           <li>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -91,11 +60,12 @@ const AboutFacilitator = () => {
                 d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z"
               />
             </svg>
-            View current and upcoming weeks facilitators
+            Reveal values and calculate average value
           </li>
         </ul>
       </div>
     </div>
   );
 };
-export default AboutFacilitator;
+
+export default AboutPoker;

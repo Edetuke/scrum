@@ -3,6 +3,7 @@ import MainNavigation from "../Navigation/MainNavigation";
 import AboutCapacity from "./AboutCapacity";
 
 import AboutFacilitator from "./AboutFacilitator";
+import AboutPoker from "./AboutPoker";
 
 const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ const MainPage = () => {
       <MainNavigation />
       <AboutFacilitator />
       <AboutCapacity />
+      <AboutPoker />
     </Fragment>
   );
 };

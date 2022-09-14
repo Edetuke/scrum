@@ -11,8 +11,8 @@ const AboutCapacity = () => {
       />
       <div className={classes.capacityText}>
         <h2>CAPACITY CALCULATOR</h2>
-        <p>No more excels! Calculate your capacity online and together</p>
-        <ul className={classes.capacityList}>
+        <p>No more excels! Calculate your capacity online and together.</p>
+        <ul>
           <li>
             {" "}
             <svg
