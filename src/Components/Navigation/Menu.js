@@ -5,10 +5,22 @@ import classes from "./Menu.module.css";
 const MenuNav = () => {
   return (
     <div className={classes.menu}>
-      <Link className={classes.link}> About</Link>
-      <Link className={classes.link}> Fasilitator election </Link>
-      <Link className={classes.link}> capacity calculator </Link>
-      <Link className={classes.link}> story point poker </Link>
+      <Link to="/about" className={classes.link}>
+        {" "}
+        About
+      </Link>
+      <Link to="/fasilitator" className={classes.link}>
+        {" "}
+        Fasilitator election{" "}
+      </Link>
+      <Link to="/capacity" className={classes.link}>
+        {" "}
+        capacity calculator{" "}
+      </Link>
+      <Link to="/poker" className={classes.link}>
+        {" "}
+        story point poker{" "}
+      </Link>
     </div>
   );
 };

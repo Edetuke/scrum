@@ -1,0 +1,36 @@
+.aboutFacilitator {
+  position: relative;
+  height: 25rem;
+  border-width: 2rem;
+  border: solid;
+  border-radius: 2rem;
+  border-color: #054741;
+}
+
+.wheel {
+  position: absolute;
+  left: 50rem;
+  top: -15rem;
+}
+
+.facilitatorText {
+  position: absolute;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  color: #054741;
+  font-size: 20px;
+}
+
+.facilitatorText h2 {
+  text-transform: uppercase;
+}
+
+.facilitatorText ul {
+  list-style: none;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: #054741;
+}
