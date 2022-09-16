@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #054741;
+}
+
+.footer p {
+  margin-right: 0.5rem;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
