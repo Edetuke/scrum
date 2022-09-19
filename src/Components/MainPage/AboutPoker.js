@@ -1,3 +1,4 @@
+import React from "react";
 import classes from "./AboutPoker.module.css";
 import pokerimg from "../../Logos/images/pokerimg.jpg";
 

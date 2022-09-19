@@ -1,4 +1,5 @@
 import classes from "./AboutCapacity.module.css";
+import React from "react";
 import capacityimg from "../../Logos/images/capacity.jpg";
 
 const AboutCapacity = () => {

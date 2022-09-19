@@ -1,3 +1,4 @@
+import React from "react";
 import { Fragment } from "react";
 import MainNavigation from "../Navigation/MainNavigation";
 import AboutCapacity from "./AboutCapacity";

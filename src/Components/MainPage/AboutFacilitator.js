@@ -1,22 +1,9 @@
-import SpinWheel from "../SpinWheel/SpinWheel";
+import React from "react";
 import classes from "./AboutFacilitator.module.css";
 
 const AboutFacilitator = () => {
-  const segments = [
-    "Edita",
-    "Gedas",
-    "Karina",
-    "Edita",
-    "Fronte",
-    "Gytis",
-    "Erika",
-    "Gyte",
-  ];
   return (
     <div className={classes.aboutFacilitator}>
-      <div className={classes.wheel}>
-        <SpinWheel size={150} segments={segments} />
-      </div>
       <div className={classes.facilitatorText}>
         <h2>Facilitator election</h2>
         <p>

@@ -1,3 +1,4 @@
+import React from "react";
 import logogithub from "./../../Logos/images/logo-github.svg";
 import logolinkedin from "../../Logos/images/logo-linkedin.svg";
 import classes from "./Footer.module.css";
