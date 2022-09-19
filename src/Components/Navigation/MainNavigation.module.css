@@ -1,9 +1,7 @@
 .logo {
-  position: absolute;
+  position: relative;
   height: 3rem;
-
-  top: 5%;
-  left: 5%;
+  right: 20rem;
 }
 
 .backround {
@@ -15,4 +13,38 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+.navigation {
+  position: absolute;
+  display: flex;
+  text-transform: uppercase;
+  padding: 1.2rem;
+  margin-right: 1.2rem;
+  align-items: center;
+  gap: 1.8rem;
+  top: 5%;
+  right: 5%;
+}
+
+.link {
+  color: #054741;
+  margin: 0.2rem;
+}
+
+.link:hover,
+.link:active {
+  color: #03cdaa;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.link:focus {
+  color: #82a3a0;
 }
