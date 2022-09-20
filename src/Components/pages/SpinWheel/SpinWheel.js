@@ -1,20 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import WheelComponent from "react-wheel-of-prizes";
-import MainNavigation from "../../Navigation/MainNavigation";
 import classes from "./SpinWheel.module.css";
 
 const SpinWheel = () => {
-  const segments = [
-    "better luck next time",
-    "won 70",
-    "won 10",
-    "better luck next time",
-    "won 2",
-    "won uber pass",
-    "better luck next time",
-    "won a voucher",
-  ];
+  const segments = ["Edita", "Gedas", "Karina", "Fronte", "Gytis", "Gyte"];
   const segColors = [
     "#EE4040",
     "#F0CF50",
@@ -29,7 +19,7 @@ const SpinWheel = () => {
     console.log(winner);
   };
   return (
-    <Fragment>
+    <div className={classes.wheel}>
       <WheelComponent
         segments={segments}
         segColors={segColors}
@@ -39,12 +29,12 @@ const SpinWheel = () => {
         contrastColor="white"
         buttonText="Spin"
         isOnlyOnce={false}
-        size={290}
-        upDuration={100}
-        downDuration={1000}
+        size={200}
+        upDuration={50}
+        downDuration={200}
         fontFamily="Arial"
       />
-    </Fragment>
+    </div>
   );
 };
 
