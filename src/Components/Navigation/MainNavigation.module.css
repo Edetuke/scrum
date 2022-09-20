@@ -1,7 +1,7 @@
 .logo {
   position: relative;
   height: 3rem;
-  right: 20rem;
+  margin: 10rem;
 }
 
 .backround {
@@ -16,20 +16,24 @@ body {
 }
 
 .navigation {
-  position: absolute;
   display: flex;
+  position: fixed;
   text-transform: uppercase;
-  padding: 1.2rem;
-  margin-right: 1.2rem;
   align-items: center;
-  gap: 1.8rem;
-  top: 5%;
-  right: 5%;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-size: cover;
+  height: 8rem;
+  background-color: rgba(255, 255, 255, 0.97);
+
+  scroll-behavior: smooth;
+  z-index: 999;
 }
 
 .link {
   color: #054741;
-  margin: 0.2rem;
+  margin: 0.5rem;
 }
 
 .link:hover,

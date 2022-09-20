@@ -7,6 +7,7 @@ import AboutFacilitator from "./AboutFacilitator";
 import AboutPoker from "./AboutPoker";
 import Backroundimg from "../../Logos/images/about-backroud.jpg";
 import classes from "./MainPage.module.css";
+import Footer from "../Footer/Footer";
 
 const MainPage = () => {
   return (

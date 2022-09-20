@@ -1,29 +1,25 @@
 import React from "react";
 import logo from "../../Logos/screasy-logo.svg";
 import classes from "../Navigation/MainNavigation.module.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const MainNavigation = () => {
   return (
     <div className={classes.navigation}>
       <img className={classes.logo} src={logo} alt="logo" />
       <div className={classes.menu}>
-        <Link to="/about" className={classes.link}>
-          {" "}
+        <NavLink to="/about" className={classes.link}>
           About
-        </Link>
-        <Link to="/fasilitator" className={classes.link}>
-          {" "}
-          Fasilitator election{" "}
-        </Link>
-        <Link to="/capacity" className={classes.link}>
-          {" "}
-          capacity calculator{" "}
-        </Link>
-        <Link to="/poker" className={classes.link}>
-          {" "}
-          story point poker{" "}
-        </Link>
+        </NavLink>
+        <NavLink to="/fasilitator-election" className={classes.link}>
+          Fasilitator election
+        </NavLink>
+        <NavLink to="/capacity-calculator" className={classes.link}>
+          capacity calculator
+        </NavLink>
+        <NavLink to="/poker" className={classes.link}>
+          story point poker
+        </NavLink>
       </div>
     </div>
   );
