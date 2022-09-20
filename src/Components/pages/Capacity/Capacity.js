@@ -1,9 +1,9 @@
 import React from "react";
-import MainNavigation from "../../Navigation/MainNavigation";
+import classes from "../Capacity/Capacity.module.css";
 
 const Capacity = () => {
   return (
-    <div>
+    <div className={classes.capacity}>
       <h2>Under the reconstruction</h2>
     </div>
   );

@@ -1,9 +1,9 @@
 import React from "react";
-import MainNavigation from "../../Navigation/MainNavigation";
+import classes from "../Poker/Poker.module.css";
 
 const Poker = () => {
   return (
-    <div>
+    <div className={classes.poker}>
       <h2>Under the reconstruction</h2>
     </div>
   );
