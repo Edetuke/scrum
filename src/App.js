@@ -12,6 +12,7 @@ function App() {
     <div className={styles.content}>
       <MainNavigation />
       <Routes>
+        <Route path="/scrum" element={<MainPage />} />
         <Route path="/about" element={<MainPage />} />
         <Route path="/fasilitator-election" element={<SpinWheel />} />
 
