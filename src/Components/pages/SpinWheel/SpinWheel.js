@@ -29,7 +29,7 @@ const SpinWheel = () => {
         contrastColor="white"
         buttonText="Spin"
         isOnlyOnce={false}
-        size={220}
+        size={250}
         upDuration={50}
         downDuration={200}
         fontFamily="Arial"
