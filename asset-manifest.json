@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/scrum/static/css/main.e65eaf61.css",
-    "main.js": "/scrum/static/js/main.b5ed3634.js",
+    "main.css": "/scrum/static/css/main.40a51b9c.css",
+    "main.js": "/scrum/static/js/main.8499f412.js",
     "static/media/pokerimg.jpg": "/scrum/static/media/pokerimg.d097c8912ef1d5140a0e.jpg",
     "static/media/capacity.jpg": "/scrum/static/media/capacity.377ff631bc164f775c53.jpg",
     "static/media/about-backroud.jpg": "/scrum/static/media/about-backroud.c6c5749d874d1b486234.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo-github.svg": "/scrum/static/media/logo-github.080591513b1a3eb8fdfe0257830eaff1.svg",
     "index.html": "/scrum/index.html",
     "static/media/logo-linkedin.svg": "/scrum/static/media/logo-linkedin.9ab1461c9a828786baf729f786e1c2f3.svg",
-    "main.e65eaf61.css.map": "/scrum/static/css/main.e65eaf61.css.map",
-    "main.b5ed3634.js.map": "/scrum/static/js/main.b5ed3634.js.map"
+    "main.40a51b9c.css.map": "/scrum/static/css/main.40a51b9c.css.map",
+    "main.8499f412.js.map": "/scrum/static/js/main.8499f412.js.map"
   },
   "entrypoints": [
-    "static/css/main.e65eaf61.css",
-    "static/js/main.b5ed3634.js"
+    "static/css/main.40a51b9c.css",
+    "static/js/main.8499f412.js"
   ]
 }
