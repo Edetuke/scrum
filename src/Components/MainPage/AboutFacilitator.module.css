@@ -35,12 +35,15 @@
   text-transform: uppercase;
 }
 
-.facilitatorText ul {
-  list-style: none;
-}
-
 .icon {
+  position: relative;
   width: 2rem;
   height: 2rem;
   color: #054741;
+  margin-right: 0.5rem;
+  vertical-align: bottom;
+}
+
+.list {
+  list-style: none;
 }

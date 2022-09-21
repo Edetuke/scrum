@@ -12,9 +12,8 @@ const AboutFacilitator = () => {
           Saves your time on facilitator selection, booking meetings for
           facilitation preparation and more!
         </p>
-        <ul>
+        <ul className={classes.list}>
           <li>
-            {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

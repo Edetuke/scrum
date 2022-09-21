@@ -11,6 +11,8 @@
   width: 2rem;
   height: 2rem;
   color: #054741;
+  margin-right: 0.5rem;
+  vertical-align: bottom;
 }
 
 .aboutPoker {
@@ -21,7 +23,7 @@
   border: solid;
   border-radius: 2rem;
   border-color: #054741;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .pokerText {
