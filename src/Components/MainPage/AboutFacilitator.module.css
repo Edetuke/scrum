@@ -8,6 +8,15 @@
   border-color: #054741;
 }
 
+.wheelimg {
+  position: absolute;
+  width: 20rem;
+  height: 20rem;
+  left: 60rem;
+  margin-top: 2.5rem;
+  border-radius: 50%;
+}
+
 .wheel {
   position: absolute;
   left: 50rem;

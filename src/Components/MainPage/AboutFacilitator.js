@@ -1,9 +1,11 @@
 import React from "react";
 import classes from "./AboutFacilitator.module.css";
+import wheelimg from "../../Logos/images/wheel.png";
 
 const AboutFacilitator = () => {
   return (
     <div className={classes.aboutFacilitator}>
+      <img className={classes.wheelimg} src={wheelimg} alt="wheel-img" />
       <div className={classes.facilitatorText}>
         <h2>Facilitator election</h2>
         <p>
