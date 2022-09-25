@@ -26,7 +26,7 @@
 .facilitatorText {
   position: absolute;
   margin-top: 4rem;
-  margin-left: 3rem;
+  margin-left: 5rem;
   color: #054741;
   font-size: 20px;
 }
@@ -46,4 +46,6 @@
 
 .list {
   list-style: none;
+  display: inline;
+  margin-right: 1rem;
 }

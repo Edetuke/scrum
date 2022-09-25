@@ -28,7 +28,7 @@
 
 .pokerText {
   position: absolute;
-  right: 50rem;
+  right: 57rem;
   margin-top: 4rem;
   color: #054741;
   font-size: 20px;
@@ -37,4 +37,6 @@
 
 .pokerText ul {
   list-style: none;
+  display: inline;
+  margin-right: 1rem;
 }

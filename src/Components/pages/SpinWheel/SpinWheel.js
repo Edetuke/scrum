@@ -1,6 +1,6 @@
 import React from "react";
 
-import WheelComponent from "react-wheel-of-prizes";
+import WheelComponent from "../../WheelComponent";
 import classes from "./SpinWheel.module.css";
 
 const SpinWheel = () => {
