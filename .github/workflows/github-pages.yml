@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: [ main ]    
+    branches: [main]
 permissions:
   contents: write
 jobs:
@@ -14,8 +14,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm ci --force
-          npm run build
+          npm ci 
+          npm run build /p:TreatWarningsAsErrors=False
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
