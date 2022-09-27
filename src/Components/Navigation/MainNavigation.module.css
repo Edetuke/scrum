@@ -4,12 +4,19 @@
   margin: 10rem;
 }
 
+.menu {
+  position: absolute;
+  margin-top: 2rem;
+  margin-left: 35rem;
+}
+
 .icon {
   position: relative;
   width: 2rem;
   height: 2rem;
   color: #054741;
-  vertical-align: bottom;
+  margin-left: 40rem;
+  margin-bottom: 2rem;
 }
 
 .backround {
@@ -33,11 +40,12 @@ body {
   position: fixed;
   text-transform: uppercase;
   align-items: center;
+
   top: 0;
   bottom: 0;
   width: 100%;
   background-size: cover;
-  height: 5rem;
+  height: 8rem;
   background-color: rgba(255, 255, 255, 0.97);
 
   scroll-behavior: smooth;
