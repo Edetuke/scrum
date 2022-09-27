@@ -3,7 +3,7 @@ import logo from "../../Logos/screasy-logo.svg";
 import classes from "../Navigation/MainNavigation.module.css";
 import { NavLink } from "react-router-dom";
 
-const MainNavigation = () => {
+const MainNavigation = (props) => {
   return (
     <div className={classes.navigation}>
       <img className={classes.logo} src={logo} alt="logo" />
@@ -11,7 +11,11 @@ const MainNavigation = () => {
         <NavLink to="/about" className={classes.link}>
           About
         </NavLink>
-        <NavLink to="/fasilitator-election" className={classes.link}>
+        <NavLink
+          to="/fasilitator-election"
+          className={classes.link}
+          onClick={props.onShowModal}
+        >
           Fasilitator election
         </NavLink>
         <NavLink to="/capacity-calculator" className={classes.link}>

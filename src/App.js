@@ -6,11 +6,23 @@ import SpinWheel from "./Components/pages/SpinWheel/SpinWheel";
 import Poker from "./Components/pages/Poker/Poker";
 import Capacity from "./Components/pages/Capacity/Capacity";
 import MainNavigation from "./Components/Navigation/MainNavigation";
+import ModalForm from "./Components/ModalForm";
+import { useState } from "react";
 
 function App() {
+  const [modalIsShown, setModalIsShown] = useState(false);
+
+  const showModalHandler = () => {
+    setModalIsShown(true);
+  };
+
+  const hideModalHandler = () => {
+    setModalIsShown(false);
+  };
+
   return (
     <div className={styles.content}>
-      <MainNavigation />
+      <MainNavigation onShowModal={showModalHandler} />
       <Routes>
         <Route path="/scrum" element={<MainPage />} />
         <Route path="/about" element={<MainPage />} />
@@ -20,6 +32,7 @@ function App() {
 
         <Route path="/capacity-calculator" element={<Capacity />} />
       </Routes>
+      {modalIsShown && <ModalForm onClose={hideModalHandler} />}
       <Footer />
     </div>
   );
