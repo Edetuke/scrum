@@ -8,6 +8,7 @@ const MainNavigation = (props) => {
     <div className={classes.navigation}>
       <img className={classes.logo} src={logo} alt="logo" />
       <button className={classes.button}>
+        <p>{props.userData}</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
