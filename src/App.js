@@ -23,6 +23,7 @@ function App() {
   return (
     <div className={styles.content}>
       <MainNavigation onShowModal={showModalHandler} />
+
       <Routes>
         <Route path="/scrum" element={<MainPage />} />
         <Route path="/about" element={<MainPage />} />
