@@ -3,22 +3,12 @@ import logo from "../../Logos/screasy-logo.svg";
 import classes from "../Navigation/MainNavigation.module.css";
 import UserLogin from "../Navigation/UserLogin";
 import { NavLink } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 const MainNavigation = (props) => {
-  const [isLoggedIn, setLogin] = useState();
-
-  useEffect(() => {
-    if (localStorage.getItem("username") !== null) {
-      setLogin(true);
-    } else {
-      setLogin(false);
-    }
-  }, [isLoggedIn]);
   return (
     <div className={classes.navigation}>
       <img className={classes.logo} src={logo} alt="logo" />
-      {isLoggedIn ? <UserLogin /> : null}
+      <UserLogin username={props.username} />
       <div className={classes.menu}>
         <NavLink to="/about" className={classes.link}>
           About

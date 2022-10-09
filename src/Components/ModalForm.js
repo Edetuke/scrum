@@ -8,15 +8,14 @@ const ModalForm = (props) => {
     setName(event.target.value);
   };
 
-  const submitHandler = (event) => {
-    event.preventDefault();
+  const submitHandler = () => {
     localStorage.setItem("username", name);
     props.onClose();
   };
 
   return (
     <Modal>
-      <form onSubmit={submitHandler} onClose={props.onClose}>
+      <form onSubmit={submitHandler}>
         <h2>Enter your user name</h2>
         <input
           type="username"
@@ -27,7 +26,9 @@ const ModalForm = (props) => {
         <button type="submit" disabled={!name}>
           Save
         </button>
-        <button type="cancel">Cancel</button>
+        <button type="button" onClick={props.onClose}>
+          Cancel
+        </button>
       </form>
     </Modal>
   );

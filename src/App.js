@@ -11,18 +11,22 @@ import { useState } from "react";
 
 function App() {
   const [modalIsShown, setModalIsShown] = useState(false);
+  const [username, setUsername] = useState();
 
-  const showModalHandler = () => {
-    setModalIsShown(true);
-  };
-
-  const hideModalHandler = () => {
+  const onCloseModalHandler = () => {
     setModalIsShown(false);
+    let username = localStorage.getItem("username");
+    if (username !== null) {
+      setUsername(username);
+    }
   };
 
   return (
     <div className={styles.content}>
-      <MainNavigation onShowModal={showModalHandler} />
+      <MainNavigation
+        username={username}
+        onShowModal={() => setModalIsShown(true)}
+      />
 
       <Routes>
         <Route path="/scrum" element={<MainPage />} />
@@ -33,7 +37,7 @@ function App() {
 
         <Route path="/capacity-calculator" element={<Capacity />} />
       </Routes>
-      {modalIsShown && <ModalForm onClose={hideModalHandler} />}
+      {modalIsShown && <ModalForm onClose={onCloseModalHandler} />}
       <Footer />
     </div>
   );
