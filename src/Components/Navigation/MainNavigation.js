@@ -5,6 +5,12 @@ import UserLogin from "../Navigation/UserLogin";
 import { NavLink } from "react-router-dom";
 
 const MainNavigation = (props) => {
+  function displayModal() {
+    let username = localStorage.getItem("username");
+    if (username === null) {
+      props.onShowModal();
+    }
+  }
   return (
     <div className={classes.navigation}>
       <img className={classes.logo} src={logo} alt="logo" />
@@ -16,22 +22,18 @@ const MainNavigation = (props) => {
         <NavLink
           to="/fasilitator-election"
           className={classes.link}
-          onClick={props.onShowModal}
+          onClick={displayModal}
         >
           Fasilitator election
         </NavLink>
         <NavLink
           to="/capacity-calculator"
           className={classes.link}
-          onClick={props.onShowModal}
+          onClick={displayModal}
         >
           capacity calculator
         </NavLink>
-        <NavLink
-          to="/poker"
-          className={classes.link}
-          onClick={props.onShowModal}
-        >
+        <NavLink to="/poker" className={classes.link} onClick={displayModal}>
           story point poker
         </NavLink>
       </div>
