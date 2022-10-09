@@ -1,7 +1,7 @@
 import MainPage from "./Components/MainPage/MainPage";
 import styles from "./global.css";
 import Footer from "../src/Components/Footer/Footer";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SpinWheel from "./Components/pages/SpinWheel/SpinWheel";
 import Poker from "./Components/pages/Poker/Poker";
 import Capacity from "./Components/pages/Capacity/Capacity";

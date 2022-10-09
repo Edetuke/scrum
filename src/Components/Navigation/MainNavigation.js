@@ -14,7 +14,7 @@ const MainNavigation = (props) => {
   return (
     <div className={classes.navigation}>
       <img className={classes.logo} src={logo} alt="logo" />
-      <UserLogin username={props.username} />
+      <UserLogin username={props.username} onClick={props.onShowModal} />
       <div className={classes.menu}>
         <NavLink to="/about" className={classes.link}>
           About

@@ -12,7 +12,7 @@ const UserLogin = (props) => {
     return;
   } else {
     return (
-      <div className={classes.user}>
+      <button className={classes.user} onClick={props.onClick}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -28,7 +28,7 @@ const UserLogin = (props) => {
           />
         </svg>
         <p>{username}</p>
-      </div>
+      </button>
     );
   }
 };
