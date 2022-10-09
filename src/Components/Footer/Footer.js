@@ -8,7 +8,7 @@ const Footer = () => {
     <div className={classes.footer}>
       <p>Copyright @ 2022. Powered by Edita Barkauskaitė </p>
       <a
-        href="https://github.com/Edita2"
+        href="https://github.com/Edetuke"
         target="_blank"
         rel="noreferrer noopener"
       >
