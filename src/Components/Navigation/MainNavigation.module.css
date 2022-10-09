@@ -30,11 +30,6 @@ body {
   padding: 0;
 }
 
-.button {
-  background-color: white;
-  border: none;
-}
-
 .navigation {
   display: flex;
   position: fixed;
