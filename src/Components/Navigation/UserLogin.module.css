@@ -1,13 +1,15 @@
 .usericon {
   width: 2rem;
   height: 2rem;
-  margin-right: 1rem;
 }
 
-.user {
-  display: flex;
+.userbutton {
   margin-bottom: 4rem;
-  align-items: center;
-  margin-left: 37rem;
-  color: #054741;
+  position: relative;
+  padding: 40rem;
+  width: auto;
+}
+
+.userbutton p {
+  text-transform: uppercase;
 }

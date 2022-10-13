@@ -1,5 +1,7 @@
 import Modal from "./Modal";
 import { useState } from "react";
+import Button from "./UI/Button";
+import classes from "./ModalForm.module.css";
 
 const ModalForm = (props) => {
   const [name, setName] = useState();
@@ -18,17 +20,21 @@ const ModalForm = (props) => {
       <form onSubmit={submitHandler}>
         <h2>Enter your user name</h2>
         <input
+          className={classes.input}
           type="username"
           id="username"
           onChange={userNameChangeHandler}
           defaultValue={name}
         />
-        <button type="submit" disabled={!name}>
-          Save
-        </button>
-        <button type="button" onClick={props.onClose}>
-          Cancel
-        </button>
+        <div className={classes.button}>
+          <Button type="submit" disabled={!name}>
+            Save
+          </Button>
+          &nbsp;
+          <Button type="button" onClick={props.onClose}>
+            Cancel
+          </Button>
+        </div>
       </form>
     </Modal>
   );

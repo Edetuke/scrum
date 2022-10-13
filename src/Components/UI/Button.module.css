@@ -1,0 +1,18 @@
+.button {
+  background-color: #c0e6e3;
+  border-color: #03cdaa;
+  border-radius: 0.25rem;
+  display: flex;
+  height: 3rem;
+  width: auto;
+  align-items: center;
+}
+
+.button:hover,
+.button:active {
+  background: #03cdaa;
+}
+
+.button:focus {
+  outline: none;
+}

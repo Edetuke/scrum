@@ -1,0 +1,9 @@
+.input {
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  border-color: #03cdaa;
+}
+
+.button {
+  display: flex;
+}

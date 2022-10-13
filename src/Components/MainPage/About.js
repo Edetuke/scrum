@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./About.module.css";
 import { useNavigate } from "react-router-dom";
+import Button from "../UI/Button";
 
 const About = () => {
   let navigate = useNavigate();
@@ -16,10 +17,9 @@ const About = () => {
         Open-source, team oriented and contains all the required functionalities
         to faster your scrum process.
       </p>
-
-      <button className={classes.button} onClick={routeChange}>
-        Try facilitator election
-      </button>
+      <div className={classes.trybtn}>
+        <Button onClick={routeChange}>Try facilitator election</Button>
+      </div>
     </div>
   );
 };

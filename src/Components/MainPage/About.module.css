@@ -5,13 +5,6 @@
   margin-left: 2rem;
 }
 
-.button {
+.trybtn {
   position: absolute;
-  float: right;
-  top: 100%;
-  background-color: #c0e6e3;
-  border-color: #03cdaa;
-  border-radius: 1rem;
-  padding: 20px 40px;
-  margin-top: 1rem;
 }
