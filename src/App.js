@@ -6,7 +6,7 @@ import SpinWheel from "./Components/pages/SpinWheel/SpinWheel";
 import Poker from "./Components/pages/Poker/Poker";
 import Capacity from "./Components/pages/Capacity/Capacity";
 import MainNavigation from "./Components/Navigation/MainNavigation";
-import ModalForm from "./Components/ModalForm";
+import ModalForm from "./Components/UI/ModalForm";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import Modal from "./Modal";
 import { useState } from "react";
-import Button from "./UI/Button";
+import Button from "./Button";
 import classes from "./ModalForm.module.css";
 
 const ModalForm = (props) => {
