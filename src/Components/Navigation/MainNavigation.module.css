@@ -26,6 +26,7 @@ body {
   text-transform: uppercase;
   align-items: center;
   width: 100%;
+  top: 0;
   background-size: cover;
   height: 8rem;
   background-color: rgba(255, 255, 255, 0.97);
@@ -75,45 +76,3 @@ body {
 .close {
   display: none;
 }
-
-@media (min-width: 1920px) {
-  .menu {
-    display: inline-block;
-    margin-left: 60rem;
-  }
-}
-
-@media (max-width: 59em) {
-  .open {
-    display: block;
-  }
-
-  .navigation {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.97);
-    height: 35rem;
-    width: auto;
-    flex-direction: column;
-    top: 0;
-    right: 0;
-  }
-
-  .menu {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    column-gap: 4.8rem;
-    justify-content: center;
-    justify-self: center;
-    text-align: center;
-  }
-
-  .logo {
-    visibility: hidden;
-  }
-
-  .login {
-    position: relative;
-    top: -41rem;
-  }
-} ;
