@@ -1,22 +1,12 @@
 .logo {
-  position: relative;
   height: 3rem;
-  margin: 10rem;
+  margin-left: 2rem;
 }
 
 .menu {
   position: absolute;
   margin-top: 2rem;
   margin-left: 35rem;
-}
-
-.icon {
-  position: relative;
-  width: 2rem;
-  height: 2rem;
-  color: #054741;
-  margin-left: 40rem;
-  margin-bottom: 2rem;
 }
 
 .backround {
@@ -35,14 +25,10 @@ body {
   position: fixed;
   text-transform: uppercase;
   align-items: center;
-
-  top: 0;
-  bottom: 0;
   width: 100%;
   background-size: cover;
   height: 8rem;
   background-color: rgba(255, 255, 255, 0.97);
-
   scroll-behavior: smooth;
   z-index: 999;
 }
@@ -68,3 +54,66 @@ body {
 .link:focus {
   color: #82a3a0;
 }
+
+.menubtn {
+  width: 2rem;
+  height: 2rem;
+}
+
+.open {
+  position: relative;
+  display: none;
+  margin-bottom: 2rem;
+  margin-left: 40rem;
+}
+
+.closebtn {
+  width: 2rem;
+  height: 2rem;
+}
+
+.close {
+  display: none;
+}
+
+@media (min-width: 1920px) {
+  .menu {
+    display: inline-block;
+    margin-left: 60rem;
+  }
+}
+
+@media (max-width: 59em) {
+  .open {
+    display: block;
+  }
+
+  .navigation {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.97);
+    height: 35rem;
+    width: auto;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+  }
+
+  .menu {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    column-gap: 4.8rem;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+  }
+
+  .logo {
+    visibility: hidden;
+  }
+
+  .login {
+    position: relative;
+    top: -41rem;
+  }
+} ;
